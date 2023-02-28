@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">test_shop</string>
+    <string name="sign_in">Sign in</string>
+    <string name="log_in">Log in</string>
+    <string name="already_hav">Already have an account?</string>
+    <string name="sign_in2">Sign in</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="sign_in_wit">Sign in with Apple</string>
+    <string name="sign_in_wit2">Sign in with Google</string>
+    <string name="time">9:41</string>
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_pag"
+    tools:context=".MainActivity">
+
+
+
+    <!-- Sign in -->
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="113dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/sign_in"
+        android:textAppearance="@style/sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/log_in"
+        android:layout_width="35dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="512dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/log_in"
+        android:textAppearance="@style/log_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/already_hav"
+        android:layout_width="129dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="512dp"
+        android:gravity="top"
+        android:text="@string/already_hav"
+        android:textAppearance="@style/already_hav"
+        app:layout_constraintEnd_toStartOf="@+id/log_in"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/group_5"
+        android:layout_width="289dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="451dp"
+        android:layout_marginEnd="43dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/button"
+        android:layout_width="289dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button"
+        app:layout_constraintStart_toStartOf="@+id/group_5"
+        app:layout_constraintTop_toTopOf="@+id/group_5" />
+
+    <TextView
+        android:id="@+id/sign_in2"
+        android:layout_width="64dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="465dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/sign_in2"
+        android:textAppearance="@style/sign_in2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/rectangle_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="83dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="394dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/email"
+        android:textAppearance="@style/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group 3 -->
+    <View
+        android:id="@+id/group_3"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="42dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Rectangle 3 -->
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintStart_toStartOf="@+id/group_3"
+        app:layout_constraintTop_toTopOf="@+id/group_3" />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="112dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/last_name"
+        android:textAppearance="@style/last_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group 2 -->
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="42dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Rectangle 2 -->
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="289dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_2"
+        app:layout_constraintStart_toStartOf="@+id/group_2"
+        app:layout_constraintTop_toTopOf="@+id/group_2" />
+
+    <!-- First name -->
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="112dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="266dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/first_name"
+        android:textAppearance="@style/first_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group 124 -->
+    <View
+        android:id="@+id/group_124"
+        android:layout_width="139dp"
+        android:layout_height="21.87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="137dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Sign in with Apple -->
+    <TextView
+        android:id="@+id/sign_in_wit"
+        android:layout_width="107dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="137dp"
+        android:gravity="top"
+        android:text="@string/sign_in_wit"
+        android:textAppearance="@style/sign_in_wit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--View
+        android:id="@+id/vector"
+        android:layout_width="18.38dp"
+        android:layout_height="21.87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/vector"
+        app:layout_constraintStart_toStartOf="@+id/group_124"
+        app:layout_constraintTop_toTopOf="@+id/group_124" /-->
+
+    <!--RelativeLayout
+        android:id="@+id/system_ligh"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/system_ligh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+        android:id="@+id/home_indica"
+        android:layout_width="134dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/home_indica"
+        />
+
+    </RelativeLayout-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
