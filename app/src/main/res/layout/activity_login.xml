@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_pag"
+    tools:context=".Login">
+
+
+  <!-- Sign in -->
+  <TextView
+      android:id="@+id/welcome_bac"
+      android:layout_width="199dp"
+      android:layout_height="34dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="153dp"
+      android:gravity="center_horizontal|top"
+      android:text="@string/welcome_bac"
+      android:textAppearance="@style/welcome_bac"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <!-- Group 5 -->
+  <View
+      android:id="@+id/group_5"
+      android:layout_width="289dp"
+      android:layout_height="46dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginBottom="10dp"
+      android:background="#00000000"
+      app:layout_constraintBottom_toTopOf="@+id/enter_text"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <View
+      android:id="@+id/button"
+      android:layout_width="289dp"
+      android:layout_height="46dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:background="@drawable/button"
+      app:layout_constraintStart_toStartOf="@+id/group_5"
+      app:layout_constraintTop_toTopOf="@+id/group_5" />
+
+  <TextView
+      android:id="@+id/login"
+      android:layout_width="64dp"
+      android:layout_height="18dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="13dp"
+      android:gravity="center_horizontal|top"
+      android:text="@string/login"
+      android:textAppearance="@style/login"
+      app:layout_constraintEnd_toEndOf="@+id/group_5"
+      app:layout_constraintStart_toStartOf="@+id/group_5"
+      app:layout_constraintTop_toTopOf="@+id/group_5" />
+
+  <!-- Group 2 -->
+  <View
+      android:id="@+id/group_2"
+      android:layout_width="289dp"
+      android:layout_height="29dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="259dp"
+      android:background="#00000000"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <!-- Rectangle 2 -->
+  <View
+      android:id="@+id/rectangle_2"
+      android:layout_width="289dp"
+      android:layout_height="29dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:background="@drawable/rectangle_2"
+      app:layout_constraintStart_toStartOf="@+id/group_2"
+      app:layout_constraintTop_toTopOf="@+id/group_2" />
+
+  <!-- First name -->
+  <TextView
+      android:id="@+id/first_name"
+      android:layout_width="112dp"
+      android:layout_height="15dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:gravity="center_horizontal|top"
+      android:text="@string/first_name"
+      android:textAppearance="@style/first_name"
+      app:layout_constraintBottom_toBottomOf="@+id/group_2"
+      app:layout_constraintEnd_toEndOf="@+id/group_2"
+      app:layout_constraintStart_toStartOf="@+id/group_2"
+      app:layout_constraintTop_toTopOf="@+id/group_2" />
+
+  <!-- Group 58 -->
+  <View
+      android:id="@+id/group_58"
+      android:layout_width="289dp"
+      android:layout_height="29dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="323dp"
+      android:background="#00000000"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <View
+      android:id="@+id/rectangle_2_2"
+      android:layout_width="289dp"
+      android:layout_height="29dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:background="@drawable/rectangle_2"
+      app:layout_constraintStart_toStartOf="@+id/group_58"
+      app:layout_constraintTop_toTopOf="@+id/group_58" />
+
+  <!-- Password -->
+  <TextView
+      android:id="@+id/password"
+      android:layout_width="112dp"
+      android:layout_height="15dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:gravity="center_horizontal|top"
+      android:text="@string/password"
+      android:textAppearance="@style/password"
+      app:layout_constraintBottom_toBottomOf="@+id/group_58"
+      app:layout_constraintEnd_toEndOf="@+id/group_58"
+      app:layout_constraintStart_toStartOf="@+id/group_58"
+      app:layout_constraintTop_toTopOf="@+id/group_58" />
+
+  <!-- eye-off -->
+
+  <!-- Enter text -->
+  <RelativeLayout
+      android:id="@+id/eye_off"
+      android:layout_width="15dp"
+      android:layout_height="15dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginEnd="10dp"
+      android:background="@drawable/eye_off"
+      android:clipToOutline="true"
+      app:layout_constraintBottom_toBottomOf="@+id/group_58"
+      app:layout_constraintEnd_toEndOf="@+id/group_58"
+      app:layout_constraintTop_toTopOf="@+id/group_58" />
+
+  <!--View
+      android:id="@+id/vector"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
+      android:background="@drawable/vector3"
+      /-->
+
+  <View
+      android:id="@+id/enter_text"
+      android:layout_width="375dp"
+      android:layout_height="291dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:background="#00000000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <!-- iOS/Keyboard/Light/Alphabetic -->
+  <RelativeLayout
+      android:id="@+id/ios_keyboar"
+      android:layout_width="375dp"
+      android:layout_height="291dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:background="@drawable/ios_keyboar"
+      app:layout_constraintStart_toStartOf="@+id/enter_text"
+      app:layout_constraintTop_toTopOf="@+id/enter_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
